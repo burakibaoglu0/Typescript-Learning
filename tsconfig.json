@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "lib": ["ESNext"], //kullandığımız kütüphaneler
+        "strict": true, //strict mode aktif edildi
+        "module": "CommonJS", //CommonJS modülü kullanıldı
+        "moduleResolution": "Node", //Node modülü kullanıldı
+        "esModuleInterop": true, //es6 modülleri CommonJS modülleri ile kullanılabilir
+        "target": "ESNext", //ESNext target kullanıldı
+        "outDir": "dist", //dist klasörü içine çıktıların yerleştirildiği klasör
+        "rootDir": "./src",
+        "noUnusedParameters": true, //fonksiyonlarda kullanılmayan parametreleri kullanılmadığını bildirir
+        "noUnusedLocals": false, //fonksiyonlarda kullanılmayan local değişkenleri kullanılmadığını bildirir
+        "allowSyntheticDefaultImports": true, //default importların syntetic olarak oluşturulmasına izin verir
+        "declaration": true //deklarasyonların çıktısının olmasını sağlar
+    }
+}
